@@ -23,7 +23,7 @@ git switch calculator
 etc.
 ```
 
-`Basics` contains two simple tests that run on their own without testing any application code.
+`Basics` contains two simple tests that run on their own without testing any application code: it demonstrates the concepts of tests and assertions.
 
 `Calculator` contains the beginning of a hypothetical calculator app to demonstrate testing application code.
 
