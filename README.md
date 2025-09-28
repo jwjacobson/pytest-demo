@@ -23,6 +23,10 @@ git switch calculator
 etc.
 ```
 
+`Basics` contains two simple tests that run on their own without testing any application code.
+
+`Calculator` contains the beginning of a hypothetical calculator app to demonstrate testing application code.
+
 To run pytest:
 
 ```
