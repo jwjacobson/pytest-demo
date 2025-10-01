@@ -6,7 +6,7 @@
 
 ## Installation
 
-Just  [Clone the repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)!
+[Clone the repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)!
 
 #### Example with SSH:
 ```bash
@@ -15,7 +15,7 @@ git clone git@github.com:jwjacobson/pytest-demo.git && cd pytest-demo
 
 ## Using the repo
 
-The repo consists of three branches: `main` (the default branch), `basics`, and `calculator`. Switch between them using `git switch`:
+The repo consists of four branches: `main` (the default branch), `basics`, `calculator`, and `fastapi`. Switch between them using `git switch`:
 
 ```bash
 git switch basics
@@ -27,9 +27,16 @@ etc.
 
 `Calculator` contains the beginning of a hypothetical calculator app to demonstrate testing application code.
 
+`Fastapi` contains a minimal FastAPI app for submitting contact data plus tests to demonstrate testing a web app.
+
 To run pytest:
 
 ```
 uv run pytest
 ```
 
+To run the FastAPI app:
+```
+uv run fastapi dev src/app/main.py
+```
+Then open a browser to `http://127.0.0.1:8000`
