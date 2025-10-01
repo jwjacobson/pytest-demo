@@ -13,6 +13,12 @@ Just  [Clone the repo](https://docs.github.com/en/repositories/creating-and-mana
 git clone git@github.com:jwjacobson/pytest-demo.git && cd pytest-demo
 ```
 
+If you get an error, try this alternate command:
+```bash
+git clone https://github.com/jwjacobson/pytest-demo.git && cd pytest-demo
+```
+
+
 ## Using the repo
 
 The repo consists of four branches: `main` (the default branch), `basics`, `calculator`, and `fastapi`. Switch between them using `git switch`:
