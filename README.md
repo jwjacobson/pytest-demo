@@ -15,7 +15,7 @@ git clone git@github.com:jwjacobson/pytest-demo.git && cd pytest-demo
 
 ## Using the repo
 
-The repo consists of three branches: `main` (the default branch), `basics`, and `calculator`. Switch between them using `git switch`:
+The repo consists of four branches: `main` (the default branch), `basics`, `calculator`, and `fastapi`. Switch between them using `git switch`:
 
 ```bash
 git switch basics
@@ -26,6 +26,8 @@ etc.
 `Basics` contains two simple tests that run on their own without testing any application code: it demonstrates the concepts of tests and assertions.
 
 `Calculator` contains the beginning of a hypothetical calculator app to demonstrate testing application code.
+
+`Fastapi` contains a minimal FastAPI app for submitting contact data plus tests to demonstrate testing a web app.
 
 To run pytest:
 
